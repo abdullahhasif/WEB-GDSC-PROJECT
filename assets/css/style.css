@@ -1,0 +1,127 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    background-color: #0d1321;
+    color: white;
+    padding: 5px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-right-items{
+    display: flex;
+}
+
+.nav-right-items li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.nav-right-items li a{
+    text-decoration: none;
+    color: #05e6ee;
+    font-weight: 600;
+}
+
+.nav-right-items li:hover{
+    cursor: pointer;
+    border: 1px solid #05e6ee;
+    padding: 10px;
+    box-shadow: 2px 2px black;
+    
+}
+
+.nav .left{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.nav .left a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav .left span{
+    color: #05e6ee;
+}
+
+.home{
+    background-color: #040B18;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+.home .left-home{
+    margin-left: 40px;
+}
+
+.home .home-head{
+    font-size: 50px;
+    width: 70%;
+    height: 100px;
+    padding-top: 80px;
+}
+
+.home .home-text{
+    width: 93%;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.hire-btn{
+    background-color: #05e6ee;
+    color: #0d1321;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 103px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.right-home img{
+    width: 420px;
+    margin-right: 60px;
+    margin-top: 80px;
+}
+
+
+
+/* Projects */
+
+.projects{
+    color: #05e6ee;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #040B18;
+    display: flex;
+    padding: 20px;
+}
+
+.box{
+    background-color: #141826;
+    margin: 10px;
+    padding: 60px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.box .box-icons{
+    font-size: 30px;
+    
+}
+
